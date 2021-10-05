@@ -1,0 +1,40 @@
+fieldset
+{
+    font-size:12px;
+    padding:10px;
+    width:250px;
+    line-height:1.8;
+}
+legend
+{
+    color: #B4886B;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    float: left;
+}
+input[type=number]
+{
+    width: 45px;
+    height: 42px;
+    line-height: 1.65;
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    border: 1px solid #eee;
+}
+select{
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: #2978b2;
+    background-image: linear-gradient(to top, #989898, #797777 33%);
+}
